@@ -1,0 +1,6 @@
+{"id":"syn-001","text":"Переведи Антону в Мосэнергосбыт","entities":[{"start":9,"end":15,"label":"PERSON","text":"Антону"},{"start":18,"end":31,"label":"ORG","text":"Мосэнергосбыт"}]}
+{"id":"syn-002","text":"Оплатить Карту Тройка","entities":[{"start":9,"end":21,"label":"ORG","text":"Карту Тройка"}]}
+{"id":"syn-003","text":"Отправь маме 500 рублей","entities":[{"start":8,"end":12,"label":"CONTACT_ROLE","text":"маме"}]}
+{"id":"syn-004","text":"Рецепт салата Цезарь","entities":[]}
+{"id":"syn-005","text":"перевод Пушкину","entities":[]}
+{"id":"syn-006","text":"Пополнить steam","entities":[{"start":10,"end":15,"label":"ORG","text":"steam"}]}

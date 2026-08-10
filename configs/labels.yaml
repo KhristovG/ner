@@ -1,0 +1,12 @@
+labels:
+  PERSON:
+    description: "Имя, фамилия или ФИО человека; не знаменитость и не название блюда."
+  ORG:
+    description: "Название получателя платежа, поставщика услуги, счета или сервиса."
+  CONTACT_ROLE:
+    description: "Роль личного контакта: мама, папа, сестра, тренер и их формы."
+
+product_decision:
+  priority: "precision"
+  feature_search: "outside_ner"
+  downstream_person_signal: ["PERSON", "CONTACT_ROLE"]

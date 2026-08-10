@@ -1,0 +1,20 @@
+.DS_Store
+.venv/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+*.py[cod]
+
+# Local data and model artefacts must not enter Git.
+data/raw/
+data/interim/
+data/processed/
+artifacts/
+models/
+wandb/
+mlruns/
+
+# Keep sample data, but never real banking queries.
+!data/**/*.jsonl
+!data/**/*.md
